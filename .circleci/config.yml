@@ -28,7 +28,7 @@ jobs:
 
       - run:
           name: Clean project
-          command: ./gradlew clean
+          command: ./gradlew debug
 
       - run:
           name: Build project
