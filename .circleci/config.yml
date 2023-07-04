@@ -5,7 +5,7 @@ jobs:
       - image: circleci/android:api-30
     environment:
       JVM_OPTS: -Xmx3200m
-      JAVA_HOME: /usr/local/openjdk-11
+      JAVA_HOME: /usr/lib/jvm/java-11-openjdk-amd64
     steps:
       - checkout
 
